@@ -52,3 +52,14 @@ for (int i = sampleCount - 1; i > 0; i--) {
 1. Get a canvas, 28x28, grayscale, with the background being black.
 2. Draw any sort of number, from 0 to 9.
 3. Using the Guess class, (which will take trained_brain.ser, and image.png) my neural network will try to guess what number you drew.
+### Results From My Test (Image Drawn On https://www.pixilart.com/): ✔️ Successful
+```
+--------------------------------------------------
+Image.png Result
+Predicted label: 3
+Neuron percentages: 0.00% 0.00% 0.00% 100.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 
+Raw logits: [-12.480954, -14.50602, 6.8725805, 25.332253, -5.301191, -8.171614, -15.852834, -1.4873123, 2.8422132, 5.3088803]
+Average pixel value: 0.1811
+Input sample (first 20 values): [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+--------------------------------------------------
+```
