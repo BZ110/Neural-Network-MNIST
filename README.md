@@ -37,7 +37,7 @@ for (int i = 0; i < numInputs; i++) {
 bias = ThreadLocalRandom.current().nextFloat() * 2 * limit - limit;
 ```
 ### Testing Final Always On 9
-I was training the neural network **in order**, which meant that the last number inside the network would be the most favoured, as it was the most recently backpropagated to fit that number.
+I was training the neural network **in order**, which meant that the last number inside the network would be the most favoured, as it was the most recently backpropagated and trained to fit that number.
 To fix this, I added randomization inside of the training function per each epoch, so the network wouldn't bias the most recently trained number as much.
 ```java
 // Shuffle indices each epoch
