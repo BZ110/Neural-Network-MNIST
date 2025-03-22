@@ -5,7 +5,7 @@ This is a basic challenge I set myself to train a neural network to accurately g
 ### Constraints
 1. I was not allowed to use any unnecessary imports.
 2. I was not allowed to use any machine-learning libraries.
-3. I had to create the forward propagation on my own, with resources for the backpropagation.
+3. I had to create the forward pass on my own, with resources for the backpropagation.
 ## Results
 The information below shows an example of a test case after the AI was trained.
 ```
